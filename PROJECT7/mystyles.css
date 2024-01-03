@@ -1,0 +1,19 @@
+body{
+    background-color: #FCDBE1;
+    color:darkslategray ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+a:link{
+    color:#BD4400 ;
+}
+a:visited{
+    color: #6A2600 ;
+}
+a:hover{
+    color :#F9772D ;
+}
+.imgright{
+    float: right;
+    padding-left: 10 px;
+}
