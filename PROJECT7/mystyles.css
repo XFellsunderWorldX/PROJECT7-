@@ -17,3 +17,41 @@ a:hover{
     float: right;
     padding-left: 10 px;
 }
+
+#container{
+    width: 900 px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    color: white; 
+}
+header{
+    width: 900 px;
+    height: 100 px;
+    background-color: #137000;
+}
+header img{
+    margin: 3px;
+}
+.navigation{
+    display: flex;
+}
+.navigation li {
+    list-style: none;
+    margin: 4px;
+    padding: 3px;
+    border: 1px solid #F9772D;
+    backround-color: white;
+    color: #F9772D;
+    text-decoration: none; 
+}
+.navigation li a{
+    text-decoration: none;
+}
+.navigation li a:hover{
+    border: 1px solid white;
+    backround-color: #F9772D;
+    color: white;
+    text-decoration: none;
+}
