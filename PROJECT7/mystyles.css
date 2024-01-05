@@ -42,7 +42,7 @@ header img{
     margin: 4px;
     padding: 3px;
     border: 1px solid #F9772D;
-    backround-color: white;
+    background-color: white;
     color: #F9772D;
     text-decoration: none; 
 }
@@ -51,7 +51,38 @@ header img{
 }
 .navigation li a:hover{
     border: 1px solid white;
-    backround-color: #F9772D;
+    background-color: #F9772D;
     color: white;
     text-decoration: none;
+}
+section {
+    width: 900px;
+    background-image: url('Images/backimage.png');
+    background-repeat: repeat-y;
+}
+article{
+    width: 800px;
+    text-align: left;
+}
+#thumbs, #image {
+    width: 700px;
+    border: solid 1px 000;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: #000;
+    background: #eee;
+    padding: 5px;
+}
+#thumbs {
+    margin-top: 10px;
+}
+#thumbs img {
+    border: solid 1px #000;
+    margin: 5px;
+}
+#image{
+    height:400px;
+}
+.instructions{
+    font-style:italic;
 }
